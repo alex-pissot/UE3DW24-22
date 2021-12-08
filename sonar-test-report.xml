@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/home/vagrant/backend-js/tests/user.test.js">
+        <testCase name="Test : Get all users responds with json" duration="233">
+            <failure message="Error: expected 201 &quot;Created&quot;, got 200 &quot;OK&quot;"><![CDATA[Error: expected 201 "Created", got 200 "OK"
+    at Object.<anonymous> (/home/vagrant/backend-js/tests/user.test.js:10:10)
+    at Promise.then.completed (/home/vagrant/backend-js/node_modules/jest-circus/build/utils.js:380:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/home/vagrant/backend-js/node_modules/jest-circus/build/utils.js:315:10)
+    at _callCircusTest (/home/vagrant/backend-js/node_modules/jest-circus/build/run.js:218:40)
+    at _runTest (/home/vagrant/backend-js/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/home/vagrant/backend-js/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/home/vagrant/backend-js/node_modules/jest-circus/build/run.js:60:9)
+----
+    at Test.Object.<anonymous>.Test._assertStatus (/home/vagrant/backend-js/node_modules/supertest/lib/test.js:304:12)
+    at /home/vagrant/backend-js/node_modules/supertest/lib/test.js:80:15
+    at Test.Object.<anonymous>.Test._assertFunction (/home/vagrant/backend-js/node_modules/supertest/lib/test.js:338:11)
+    at Test.Object.<anonymous>.Test.assert (/home/vagrant/backend-js/node_modules/supertest/lib/test.js:209:21)
+    at Server.localAssert (/home/vagrant/backend-js/node_modules/supertest/lib/test.js:167:12)
+    at Object.onceWrapper (events.js:519:28)
+    at Server.emit (events.js:400:28)
+    at emitCloseNT (net.js:1677:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)]]></failure>
+        </testCase>
+        <testCase name="Test : connat get one user responds with json" duration="8">
+            <failure message="Error: expected &quot;Content-Type&quot; matching /json/, got &quot;text/html; charset=utf-8&quot;"><![CDATA[Error: expected "Content-Type" matching /json/, got "text/html; charset=utf-8"
+    at Object.<anonymous> (/home/vagrant/backend-js/tests/user.test.js:19:10)
+    at Promise.then.completed (/home/vagrant/backend-js/node_modules/jest-circus/build/utils.js:380:26)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/home/vagrant/backend-js/node_modules/jest-circus/build/utils.js:315:10)
+    at _callCircusTest (/home/vagrant/backend-js/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at _runTest (/home/vagrant/backend-js/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/home/vagrant/backend-js/node_modules/jest-circus/build/run.js:66:9)
+----
+    at Test.Object.<anonymous>.Test._assertHeader (/home/vagrant/backend-js/node_modules/supertest/lib/test.js:281:14)
+    at /home/vagrant/backend-js/node_modules/supertest/lib/test.js:80:15
+    at Test.Object.<anonymous>.Test._assertFunction (/home/vagrant/backend-js/node_modules/supertest/lib/test.js:338:11)
+    at Test.Object.<anonymous>.Test.assert (/home/vagrant/backend-js/node_modules/supertest/lib/test.js:209:21)
+    at Server.localAssert (/home/vagrant/backend-js/node_modules/supertest/lib/test.js:167:12)
+    at Object.onceWrapper (events.js:519:28)
+    at Server.emit (events.js:400:28)
+    at emitCloseNT (net.js:1677:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)]]></failure>
+        </testCase>
+    </file>
+</testExecutions>
